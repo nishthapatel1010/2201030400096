@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Challenges</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0;
+      }
+
+      p {
+        margin-top: 5px;
+      }
+
+      .challenges {
+        display: grid;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        transition: box-shadow 0.3s ease;
+      }
+
+      .challenge {
+        max-width: 300px;
+        background-color: #d1cdcd;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .challenge img {
+        max-width: 100%;
+        border-radius: 5px;
+      }
+      .challenges :hover {
+        box-shadow: 0 0 10px rgba(69, 68, 68, 0.3);
+      }
+      .challenge h2 {
+        margin-top: 10px;
+      }
+
+      .challenge p {
+        margin-bottom: 10px;
+      }
+      button {
+        padding: 7px;
+        margin: 5px;
+        border: 2px solid rgb(219, 218, 218);
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #9f5656;
+        border: 2px solid rgb(4, 4, 4);
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+    <header>
+      <h1>Take on Our Challenges</h1>
+      <p>Choose your challenge and start your fitness journey today!</p>
+    </header>
+
+    <section class="challenges">
+      <div class="challenge">
+        <img src="/images/pushup1.jpeg" alt="Challenge 1" />
+        <h2>30-Day PushUp Challenge</h2>
+        <button>Join Now</button>
+      </div>
+      <div class="challenge">
+        <img src="/images/cardio.jpg" alt="Challenge 2" />
+        <h2>30 day Cardio Challenge</h2>
+
+        <button>Join Now</button>
+      </div>
+      <div class="challenge">
+        <img src="/images/run.jpg" alt="Challenge 3" />
+        <h2>1-Month Running Challenge</h2>
+        <button>Join Now</button>
+      </div>
+      <div class="challenge">
+        <img src="/images/yoga.jpeg" alt="Challenge 3" />
+        <h2>2 Month Yoga Challenge</h2>
+        <button>Join Now</button>
+      </div>
+      <div class="challenge">
+        <img src="/images/healthyfood.jpeg" alt="Challenge 3" />
+        <h2>Daily Healthy Food Challenge</h2>
+        <button>Join Now</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 FitnessHub. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
